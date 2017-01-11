@@ -10,12 +10,38 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.geniusnine.android.yoga.MainActivity">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/editTextName" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="30dp"
         android:id="@+id/btnadddata"
-        android:text="Add Values" />
+        android:text="Add Values"
+        android:layout_below="@+id/editTextName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp" />
+
+    <Button
+        android:text="Add Multiple Object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonadd"
+        android:layout_below="@+id/btnadddata"
+        android:layout_alignLeft="@+id/btnadddata"
+        android:layout_alignStart="@+id/btnadddata"
+        android:layout_marginTop="39dp" />
 </RelativeLayout>
