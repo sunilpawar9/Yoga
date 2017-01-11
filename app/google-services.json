@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "796629285348",
+    "firebase_url": "https://yoga-1ea38.firebaseio.com",
+    "project_id": "yoga-1ea38",
+    "storage_bucket": "yoga-1ea38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796629285348:android:1c4c4c2a04197e50",
+        "android_client_info": {
+          "package_name": "com.geniusnine.android.yoga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796629285348-vfsm3h801003ie89c7hs4a0qd0p7rcna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geniusnine.android.yoga",
+            "certificate_hash": "C021F7D6FA4041111E504D781477ED980F687D9F"
+          }
+        },
+        {
+          "client_id": "796629285348-7n9u24qer9646j10r4j7fdiit45f5uml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVlzVN7MJ-CLQ4KsYJHTeMVIl0aOw2cA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796629285348-7n9u24qer9646j10r4j7fdiit45f5uml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
